@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "616925853223",
+    "firebase_url": "https://autocar-platis.firebaseio.com",
+    "project_id": "autocar-platis",
+    "storage_bucket": "autocar-platis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616925853223:android:f0da591271abd92dae4002",
+        "android_client_info": {
+          "package_name": "br.com.platis.autocar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616925853223-ml606u4niba2jqa613eio9q5eonnud97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr39W3a_9dlWWDHdFr_sQlYFdWosUvuBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616925853223-ml606u4niba2jqa613eio9q5eonnud97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

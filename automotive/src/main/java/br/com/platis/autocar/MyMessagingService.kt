@@ -71,7 +71,7 @@ class MyMessagingService : Service() {
 
         // Build a RemoteInput for receiving voice input in a Car Notification
         val remoteInput = RemoteInput.Builder(EXTRA_VOICE_REPLY)
-                .setLabel("Reply by voice")
+                .setLabel("Responder")
                 .build()
 
         // Building a Pending Intent for the reply action to trigger
@@ -109,7 +109,7 @@ class MyMessagingService : Service() {
      */
     internal inner class IncomingHandler : Handler() {
         override fun handleMessage(msg: Message) {
-            sendNotification(1, "This is a sample message", "John Doe", System.currentTimeMillis())
+            sendNotification(1, "Mensagem teste", "Daniel", System.currentTimeMillis())
         }
     }
 }
